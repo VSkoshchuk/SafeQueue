@@ -1,6 +1,6 @@
 /**
  * @file SafeQueue.h
- * @version 1.0
+ * @version 1.0.0
  */
 
 #ifndef SAFE_QUEUE_H_
