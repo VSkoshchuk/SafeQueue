@@ -1,8 +1,9 @@
 /**
  * @file SafeQueue.h
- * @version 1.0.1
+ * @version 1.0.2
  * @ref https://github.com/VSkoshchuk/SafeQueue
  * 
+ * MIT License
  * Copyright (c) 2023 VSkoshchuk skoschuk999@gmail.com
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
