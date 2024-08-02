@@ -1,6 +1,6 @@
 /**
  * @file SafeQueue.h
- * @version 1.0.2
+ * @version 1.0.3
  * @ref https://github.com/VSkoshchuk/SafeQueue
  * 
  * MIT License
@@ -29,7 +29,6 @@
 #define SAFE_QUEUE_H_
 
 
-#include <string.h>
 #include <vector>
 
 
@@ -53,7 +52,7 @@
  * The name parameter should be the name of a guard object.
  * @note Can be changed to any other implementation.
  */
-#define SQ_GUARD_LOCK(name)			name.lock()
+#define SQ_GUARD_LOCK(name)		name.lock()
 /**
  * @def SQ_GUARD_UNLOCK(name)
  * @brief Macro for unlocking the specified guard object.
